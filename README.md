@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# PresensiKu - Sistem Absensi Modern Berbasis QR Code
 
-# Run and deploy your AI Studio app
+Sistem absensi sekolah digital yang dirancang untuk kedisiplinan tingkat tinggi, transparansi data, dan kemudahan administrasi.
 
-This contains everything you need to run your app locally.
+## 🚀 Fitur Utama
+- **QR Code Scanner:** Kecepatan absensi kurang dari 2 detik menggunakan kamera HP/Laptop.
+- **Real-time Dashboard:** Pantau statistik kehadiran (Hadir, Terlambat, Alpa) secara instan.
+- **Laporan PDF:** Unduh rekap absensi bulanan/harian dalam format PDF resmi.
+- **Notifikasi Terintegrasi:** Notifikasi jika siswa telah sampai atau keluar sekolah.
+- **Role-based Access:** Dashboard khusus untuk Admin Sekolah, Guru, dan Orang Tua.
 
-View your app in AI Studio: https://ai.studio/apps/5dade8d3-9d6f-4c7a-a5f4-4cae8c8c8d87
+## 🛠️ Teknologi
+- **Frontend:** React + TypeScript + Tailwind CSS.
+- **Animasi:** Motion (Framer Motion).
+- **Backend/DB:** Firebase Firestore (Real-time NoSQL).
+- **Auth:** Firebase Authentication (Google Login).
+- **Library:** QR Code React, HTML5-QRCode, jsPDF.
 
-## Run Locally
+## 📦 Cara Menjalankan Secara Lokal
+1. Clone repository ini.
+2. Jalankan `npm install`.
+3. Masukkan konfigurasi Firebase Anda di `src/lib/firebase.ts`.
+4. Jalankan `npm run dev`.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📄 Lisensi
+Apache-2.0
