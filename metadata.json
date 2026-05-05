@@ -1,0 +1,6 @@
+{
+  "name": "PresensiKu",
+  "description": "Sistem absensi sekolah berbasis QR Code real-time dengan dashboard admin, guru, dan orang tua.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}
