@@ -5,8 +5,10 @@ import { Reports } from './Reports';
 import { QRScanner } from '../components/attendance/QRScanner';
 import { QRGenerator } from '../components/attendance/QRGenerator';
 import { motion, AnimatePresence } from 'motion/react';
-import { Bell, Search, User, QrCode } from 'lucide-react';
+import { Bell, Search, User, QrCode, Settings } from 'lucide-react';
 import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/Input';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card';
 import { attendanceService } from '../services/attendanceService';
 
 export default function Dashboard({ onLogout }: { onLogout: () => void }) {
